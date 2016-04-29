@@ -30,5 +30,7 @@ public class SampleTest extends ActivityInstrumentationTestCase2<MainActivity>{
         soloWrapper.clickButton(R.id.toast);
         soloWrapper.sleep(1000);
 
+        assertEquals(false,true);
+
     }
 }
